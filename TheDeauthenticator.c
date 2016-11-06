@@ -94,7 +94,7 @@ printf("[*]in order for the program to work correctly you mest set up your wifi 
 			perror("Error while trying to inject packet");
 			return (1);
 		}
-		sleep(1);
+		
 	}
 	return (0);
 }
