@@ -29,7 +29,7 @@ struct ICMP {
   unsigned char type;
   unsigned char code;
   unsigned short check_sum;
-  unsigned int  payload;
+  unsigned int  payload; //4 bytes of unsused space
   
 };
 struct ip {
@@ -62,10 +62,10 @@ int main(int argc, char *argv[])
   icmp->type = 3;
   icmp->code = 3;
   icmp->check_sum = checksum((void *)icmp, sizeof(struct ICMP));
-  icmp->payload = 0;
+  icmp->payload = 0; 
   
 
-  dump((const unsigned char *) &pkt, 48);
+  dump((const unsigned char *) &pkt, 48); //Debugging to confirm the packet is being built correctly
   
    
     
