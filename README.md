@@ -10,7 +10,7 @@ The DoS is capable of taking down vulnerable firewalls<br />
     Zyxel NWA3560-N (wireless attack from LAN Side)<br />
     Zyxel Zywall USG50<br />
     
-The exploit works because the processing for the ICMP type 3 code 3 packets takes up a significant enough amount of resources<br />
+The exploit works because the processing for the ICMP type 3 code 3 packets takes up a significant enough amount of resources
 that at a rate of 21Mbp/s or higher it can cause even a gigabit firewall to go offline.<br />
 
 sources<br />
