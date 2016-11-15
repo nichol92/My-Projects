@@ -21,4 +21,4 @@ sources<br />
 # To-Do List
 Finish code to build the packet<br />
 use sockets to send the packets to the victim<br />
-add commandline arguments for selecting packet properties for ip etc<br />
+Add commandline arguments for selecting packet properties for ip etc<br />
