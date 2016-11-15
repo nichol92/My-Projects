@@ -17,3 +17,8 @@ sources<br />
 [http://www.netresec.com/?page=Blog&month=2016-11&post=BlackNurse-Denial-of-Service-Attack]<br />
 [http://www.networkworld.com/article/3140925/security/blacknurse-attack-1-laptop-can-dos-some-firewalls-bring-down-big-servers.html]<br />
 [http://thehackernews.com/2016/11/dos-attack-server-firewall.html]<br />
+
+# To-Do List
+Finish code to build the packet<br />
+use sockets to send the packets to the victim<br />
+add commandline arguments for selecting packet properties for ip etc<br />
