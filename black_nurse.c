@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
   //dst_addr.sin_addr.s_addr = daddr;
 
   if (argc < 3){
-    printf("[?] usage: ./black_nurse <patients address> <nurses adress>");
+    printf("[?] usage: ./black_nurse <nurses adress> <patients address> ");
     fflush( stdout );
     exit(0);
   }
