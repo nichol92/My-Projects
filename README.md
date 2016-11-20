@@ -19,6 +19,4 @@ sources<br />
 [http://thehackernews.com/2016/11/dos-attack-server-firewall.html]<br />
 
 # To-Do List
-Finish code to build the packet<br />
-use sockets to send the packets to the victim<br />
 Add commandline arguments for selecting packet properties for ip etc<br />
