@@ -20,3 +20,5 @@ sources<br />
 
 # To-Do List
 Add commandline arguments for selecting packet properties for ip etc<br />
+Remove unused librarys
+experiment with multithreading to increase produced traffic
