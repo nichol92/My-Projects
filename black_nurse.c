@@ -56,7 +56,7 @@ struct ICMP {
   unsigned int  payload;
   
 };
-struct ip {
+struct ip { //unused struct but the layout of the frame is correct but due to typeing issues the built in iphdr struct has been used
   
   unsigned char header_len:4, ver:4, type;
   unsigned short total_len, id, frag_off;
